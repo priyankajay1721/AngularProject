@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   //varials & property
-  title = 'client';
+  title = 'display user list';
   users:any;
   constructor(private http:HttpClient){
    
@@ -30,6 +30,4 @@ export class AppComponent {
       console.log(err);
     })
   }
-
-
 }
