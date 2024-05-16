@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&family=Sedan+SC&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sail&family=Sedan+SC&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sail&family=Sedan+SC&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=IM+Fell+Great+Primer:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sail&family=Sedan+SC&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=IM+Fell+Great+Primer:ital@0;1&family=Jomolhari&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sail&family=Sedan+SC&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+
+}
+.bg-gray
+{
+    background-color:	#f4f0ec ;
+}
+.appointment
+{
+    display: flex;
+}
+.icon-phone 
+{
+    margin-top: 40px;
+}
+.heading_h6
+{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.number
+{
+    margin-top: 65px;
+    margin-left: 40px;
+
+}
+.appt_btn
+{
+    margin-top: 40px;
+}
+.btn_envelop
+{
+    margin-left: 10px;
+}
+.email
+{
+    display: flex;
+}
+.icon-email
+{
+    margin-top: 40px;
+}
+#btn-info
+{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+#btn-info:hover{
+    background-color: #41c5f5;
+    color: black;
+}
+.text-h6
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* contact form  */
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  
+  }
+  .get-in-touch .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+       color: #5543ca;
+      background: #5543ca;
+      background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+  
+  .contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height:55px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+     background-image: linear-gradient(125deg,#a72879,#064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width:200px;
+    cursor: pointer;
+  }
+  .location
+  {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+       color: #5543ca;
+      background: #5543ca;
+      background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+  #map
+  {
+    margin-bottom: 80px;
+  }
+  
+  /* ruquiya code */
+  
+.main{
+    margin-top: 5%;
+}
+
+.heading{
+    font-size: 35px;
+    color: white;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 70%;
+}
+
+.pic{
+    width:100%;
+    height: 550px;
+  
+}
+
+.doctor{
+    width: 90%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.heading1{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    padding-top: 9px;
+}
+.heading2{
+    /* font-family: "IM Fell Great Primer", serif; */
+    font-family: "Jomolhari", serif;
+    font-size: 15px;
+}
+.btn1{
+    background-color: blue;
+    color: white;
+    margin-bottom: 5%;
+    font-weight: 500;
+}
+.btn1:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.cont{
+    margin-top: 7%;
+}
+
+.profile{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.doc{
+    width: 100%;
+    height: 500px;
+}
+.name1{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    color: blue;
+}
+
+.name2{
+    font-family: "Jomolhari", serif;
+    font-size: 20px;
+    color: darkgrey;
+}
+
+.heading3{
+    font-family: "Jomolhari", serif;
+    font-size: 17px;
+}
+.btn2{
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    font-family: "Jomolhari", serif;
+    border-radius: 30px;
+    font-size: 17px;
+}
+.btn2:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.btn3{
+    color: blue;
+    font-weight: 500;
+    font-family: "Jomolhari", serif;
+    border-radius: 30px;
+    font-size: 17px;
+    border: 2px solid blue;
+    margin-left: 3%;
+}
+.btn3:hover{
+    background-color: blue;
+    color: white;
+}
+.anchor1{
+   margin-left: 25%;
+    text-decoration: none;
+    margin-bottom: 1%;
+    font-size: 17px;
+}
+
+.color1{
+    background-color: #e7feff ;
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .color1 i{
+  
+    font-size: 25px;
+    padding:2%;
+    color: #4166f5;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+  
+  .heading4{
+    color: darkgrey;
+    font-size: 17px;
+  }
+  
+  .heading5{
+    color:#4166f5;
+    font-size: 20px;
+  }
+.mid{
+    height: 300px;
+    
+}
+
+
+  .info{
+    margin-top: 50px;
+    width: 350px;
+    height: 100px;
+    box-shadow: 1px 2px 10px rgb(151, 148, 148);
+    border-radius: 10px;
+  }
+
+  .info:hover{
+    background-color: #4166f5;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .info:hover .heading5{
+    color: white;
+    transition: 0.4s;
+  }
+
+  .info:hover .heading4{
+    color: white;
+    transition: 0.4s;
+  }
+
+  .info-des{
+    margin-top: 20px;
+  }
+  .info-icon{
+    margin-top: 20px;
+  }
+  .treat{
+    width: 320px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.treatments-cont{
+    margin-top: 8%;
+}
+
+.heading6{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.timings{
+    background-color: #dcdcdc;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.heading9{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.heading10{
+    padding: 25px 0px 1px;
+    font-family: "Playfair Display", serif;
+    
+}
+
+.heading11{
+    font-family: "Jomolhari", serif;
+}
+
+.btn4{
+    background-color: blue;
+    color: white;
+    margin-bottom: 5%;
+    font-weight: 500;
+}
+.btn4:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+.cont1{
+	margin-top: 5%;
+}
+.about1{
+    margin-bottom: 8%;
+    font-family: "Playfair Display", serif;
+    font-size: 38px;
+ 
+}
+
+.reviews{
+	position:relative;
+	width:100%;
+	height:340px;
+}
+.pic1{
+	position:absolute;
+	top:-17%;
+	left:33%
+}
+.wrap{
+	padding-top:28%;
+}
+.wrap1{
+    font-size: 15px;
+    color: #4166f5;
+}
+.navbar-col
+{
+    background-color: #0fc0fc;
+}
+
+.picture{
+    background:rgba(0,0,0,0.5) url("../images/pulse-diagnosis.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-blend-mode:darken;
+	width:100%;
+	height:500px;	
+    margin-top: 5%;
+}
+
+.heading12{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.heading13{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+    font-family: "Playfair Display", serif;
+}
+
+.heading14{
+    margin-top: 5%;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: #4166f5;
+}
+
+.heading15{
+    margin-top: 8%;
+    margin-bottom: 4%;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 29px;
+    color: #4166f5;
+    text-align: center;
+}
+
+.picture1{
+    background:rgba(0,0,0,0.5) url("../images/panchakarma1.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-blend-mode:darken;
+	width:100%;
+	height:500px;	
+    margin-top: 5%;
+}
+.picture2{
+    width: 70%;
+    margin-left: 14%;
+}
+
+
+@media only screen and (min-width:457px) and (max-width:768px){
+    .doctor{
+        width: 65%;
+        height: 300px;
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-left: 18%;
+    }
+    
+    .heading1{
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        padding-top: 9px;
+        margin-left: 23%;
+        font-size: 27px;
+    }
+    .heading2{
+        /* font-family: "IM Fell Great Primer", serif; */
+        font-family: "Jomolhari", serif;
+        font-size: 18px;
+        margin-left: 23%;
+    }
+    .btn1{
+        background-color: blue;
+        color: white;
+        margin-bottom: 5%;
+        font-weight: 500;
+        margin-left: 23%;
+        font-size: 19px;
+    }
+
+    .btn1:hover{
+        background-color: dodgerblue;
+        color: white;
+    }
+
+    .cont{
+        margin-top: 7%;
+    }
+    
+    .doc{
+        width: 85%;
+        height: 450px;
+        margin-left: 50px;
+    }
+    .name1{
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        color: blue;
+        text-align: center;
+        margin-top: 14px;
+    }
+    
+    .name2{
+        font-family: "Jomolhari", serif;
+        font-size: 20px;
+        color: darkgrey;
+        text-align: center;
+    }
+
+    .anchor1{
+        margin-left: 45%;
+         text-decoration: none;
+         margin-bottom: 2%;
+         font-size: 19px;
+     }
+
+     .info{
+        margin-top: 50px;
+        width: 430px;
+        height: 110px;
+        box-shadow: 1px 2px 10px rgb(151, 148, 148);
+        border-radius: 10px;
+      }
+    
+      .info-des{
+        margin-top: 20px;
+        padding-left: 30px;
+      }
+
+      .info-icon{
+        padding-left: 30px;
+        padding-top: 5px;
+      }
+      .timings{
+        background-color: #dcdcdc;
+        height: 360px;
+        border-radius: 10px;
+        margin-left: 24%;
+        margin-top: 5%;
+    }
+    
+    .heading9{
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        font-size: 25px;
+        margin-top: 7%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    .heading10{
+        padding: 25px 0px 1px;
+        font-family: "Playfair Display", serif;
+        
+    }
+    
+    .heading11{
+        font-family: "Jomolhari", serif;
+    }
+
+    .reviews{
+        position:relative;
+        width:100%;
+        height:340px;
+        margin-top: 14%;
+    }
+    .pic1{
+        position:absolute;
+        top:-12%;
+        left:33%
+    }
+    .logo
+    {
+        margin-left: 155px;
+    }
+    .appointment
+    {
+        margin-left: 130px;
+    }
+    .number
+    {
+        margin-left: 150px;
+    }
+    .appt_btn
+    {
+        margin-left: 120px;
+    }
+    .email
+    {
+        margin-left: 130px;
+    }
+    .email1
+    {
+        margin-left: 130px;
+    }
+    .heading_h6
+    {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .heading{
+        font-size: 22px;
+        font-weight: 600;
+        color: white;
+        font-family: "Playfair Display", serif;
+        margin-bottom: 220px;
+    }
+    
+
+    .pic{
+        width:100%;
+        height: 340px;
+        margin-bottom: 8%;
+      
+    }
+
+    .heading1{
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        padding-top: 9px;
+        font-size: 22px;
+    }
+    .heading2{
+        /* font-family: "IM Fell Great Primer", serif; */
+        font-family: "Jomolhari", serif;
+        font-size: 16px;
+    }
+    .btn1{
+        background-color: blue;
+        color: white;
+        margin-bottom: 5%;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+
+    .cont{
+        margin-top: 7%;
+    }
+    
+    .profile{
+        text-align: center;
+        font-size: 30px;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        margin-bottom: 5%;
+       
+    }
+    
+    .doc{
+        width: 100%;
+        height: 280px;
+    }
+    .name1{
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        color: blue;
+        text-align: center;
+    }
+    
+    .name2{
+        font-family: "Jomolhari", serif;
+        font-size: 20px;
+        color: darkgrey;
+        text-align: center;
+    }
+    
+    .heading3{
+        font-family: "Jomolhari", serif;
+        font-size: 17px;
+    }
+    .btn2{
+        background-color: blue;
+        color: white;
+        font-weight: 500;
+        font-family: "Jomolhari", serif;
+        border-radius: 30px;
+        font-size: 17px;
+        margin-left: 10px;
+        
+    }
+    .btn2:hover{
+        background-color: dodgerblue;
+        color: white;
+    }
+    
+    .btn3{
+        color: blue;
+        font-weight: 500;
+        font-family: "Jomolhari", serif;
+        border-radius: 30px;
+        font-size: 17px;
+        border: 2px solid blue;
+        margin-top: 5%;
+        background-color: white;
+        
+    }
+    .btn3:hover{
+        background-color: blue;
+        color: white;
+    }
+    .anchor1{
+       margin-left: 25%;
+        text-decoration: none;
+        margin-bottom: 1%;
+        font-size: 17px;
+    }
+    
+    .info{
+        margin-top: 50px;
+        width: 280px;
+        height: 110px;
+        box-shadow: 1px 2px 10px rgb(151, 148, 148);
+        border-radius: 10px;
+      }
+      .info-des{
+        margin-top: 20px;
+        padding-left: 20px;
+      }
+      .heading6{
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 4%;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+
+      .cont1{
+        margin-top: 15%;
+    }
+    .about1{
+        margin-bottom: 5%;
+        font-family: "Playfair Display", serif;
+        font-size: 38px;
+     
+    }
+    
+    .reviews{
+        position:relative;
+        width:100%;
+        height:330px;
+        margin-top: 20%;
+    }
+    .pic1{
+        position:absolute;
+        top:-17%;
+        left:33%
+    }
+    .wrap{
+        padding-top:28%;
+    }
+    .wrap1{
+        font-size: 15px;
+        color: #4166f5;
+    }
+    #map
+    {
+        width: 50%;
+    }
+    .appointment
+    {
+        display: none;
+    }
+    .appt_btn
+    {
+        display: none;
+    }
+    .email
+    {
+        display: none;
+    }
+    .number
+    {display: none;
+    }
+    .email1{
+        display: none;
+    }
+    .logo{
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    .bg-gray{
+            height: 150px;
+    }
+
+
+}
