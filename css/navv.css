@@ -5,6 +5,12 @@ body{
   background-size: cover;
   background-position: center;
 }
+#navbarSupportedContent
+{
+    margin-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 .nav-icon
 {
     margin-left: 425px;
@@ -25,21 +31,18 @@ body{
     }
     
 }
+.nav-anchor{
+    margin-right: 40px ;
+}
 
 
-.nav-anchor
-{
-    margin-left: 120px;
-}
-.nav-anchor2
-{
-    margin-left: 150px;
-}
+
 .nav-link{
     margin-left: 30px;
     cursor: pointer;
     position: relative;
     font-weight: 500;
+    
        
 }
 .nav-link:hover
